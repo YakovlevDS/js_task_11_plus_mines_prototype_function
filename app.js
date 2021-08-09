@@ -1,4 +1,4 @@
-// ? Task:Как реализовать методы, которые в процессе выполнения строки (2).plus(3).minus(1) дали бы на выходе 4?
+// ? Task:Как реализовать методы, которые в процессе выполнения строки (200).plus(100).minus(230) дали бы на выходе 70?
 
 // Solution 1
 
@@ -10,9 +10,9 @@ Number.prototype.minus = function (value) {
   return this - value;
 };
 
-console.log((2).plus(3).minus(1));
-
-
+console.log((200).plus(100).minus(230));//70
+console.log((23).plus(5).minus(2));//26
+console.log((2).plus(5).minus(20));//-13
 // ! Explanation:
 // Поскольку, мы работаем с числами, надо расширить прототип Number новыми методами.
 
